@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- android_party.jpg ImageView -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android_party" />
+
+    <!-- Happy Birthday, Ben! TextView-->
+    <TextView
+        style="@style/AllTextViews"
+        android:text="@string/wish_to" />
+
+    <!-- From, Lyla! TextView -->
+    <TextView
+        style="@style/AllTextViews"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/wish_from" />
+</RelativeLayout>
